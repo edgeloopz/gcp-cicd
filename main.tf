@@ -12,10 +12,10 @@ provider "google" {
   region  = "us-west1"
 }
 
-resource "google_storage_bucket" "project_bucket"{
-    name = "tt-cicd-bucket"
-    location = "US"
-    force_destroy = true
-    public_access_prevention = "enforced"
+resource "google_storage_bucket" "project_bucket" {
+  name                     = "tt-cicd-bucket"
+  location                 = "US"
+  force_destroy            = true
+  public_access_prevention = "enforced"
 
 }
