@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "google" {
-  project = "CICDProject"
+  project = "cicdproject-465101"
   region  = "us-west1"
 }
 
